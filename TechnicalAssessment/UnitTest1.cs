@@ -181,6 +181,8 @@ namespace TechnicalAssessment
                 TestContext.WriteLine("Error: Logout was not successful.");
                 Assert.Fail("Logout was not successful.");
             }
+
+            driver.Quit();
         }
     }
 } 
